@@ -1,0 +1,47 @@
+section {
+    border-style: solid;
+    margin: 1em 1em 0 1em;
+    min-height: 82vh;
+}
+article {
+    border-style: solid;
+    margin: 0.5em;
+    display: flex;
+    text-align: center;
+}
+
+.title {
+    background-color: rgb(190, 190, 190);    
+    width: 55vw;
+}
+.date {
+    background-color: rgb(145, 145, 145);
+    width: 20vw;
+}
+.status {
+    background-color: rgb(170, 170, 170);
+    width: 20vw;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    height: 5vh;
+    width: 96vw;
+}
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    border-style: solid;
+    margin: 0.5em 0.5em 0 0.5em;
+
+}
+main {
+    border-style: solid;
+    margin: 0.2em;
+    padding: 0.1em;
+}
