@@ -1,13 +1,36 @@
+body {
+    display: flex;
+    flex-flow: row;
+}
+
+
+
 section {
     border-style: solid;
-    margin: 1em 1em 0 1em;
     min-height: 82vh;
+    width: 40vw;
+}
+
+.dashboard {
+    border-style: solid;
+    min-height: 82vh;
+    width: 50vw;
+}
+.details {
+    border-style: solid;
+    min-height: 82vh;
+    margin-left: 2vw;
+    width: 45.5vw;
 }
 article {
     border-style: solid;
     margin: 0.5em;
     display: flex;
     text-align: center;
+}
+article header, article main {
+    display: flex;
+    flex-flow: column;
 }
 
 .title {
@@ -23,13 +46,16 @@ article {
     width: 20vw;
 }
 
-button {
-    margin-left: auto;
-    margin-right: auto;
+.btnissue {
     margin-top: 0.5em;
-    margin-left: 1em;
     height: 5vh;
-    width: 96vw;
+    width: 26vw;
+}
+.btnsolvedIssues {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    height: 5vh;
+    width: 23.5vw;
 }
 button:hover {
     cursor: pointer;
@@ -37,11 +63,26 @@ button:hover {
 
 header {
     border-style: solid;
-    margin: 0.5em 0.5em 0 0.5em;
-
+    display: flex;
+    width: 100%;
 }
 main {
     border-style: solid;
     margin: 0.2em;
     padding: 0.1em;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+}
+.issueInformation {
+    display: flex;
+    flex-direction: column;
+}
+
+.makeCommentGUI {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
 }

@@ -7,18 +7,38 @@
     <link rel="stylesheet" type="text/css" href="issueTrackerStyle.css">
 </head>
 <body>
-    <section>
-        <article>
-            <a class="title" href="">(Title)</a>
-            <time class="date">(Date of creation)</time>
-            <span class="status">(Status of post)</span>
-        </article>
-        <article>
-            <a class="title" href="">(Title)</a>
-            <time class="date">(Date of creation)</time>
-            <span class="status">(Status of post)</span>
-        </article>
-    </section>
-    <button>Add issue</button>
+    <nav>
+
+    </nav>
+    <div class="leftContainer">
+        <section class="dashboard">
+            <article>
+                <a class="title" href="">(Title)</a>
+                <time class="date">(Date of creation)</time>
+                <span class="status">(Status of post)</span>
+            </article>
+            <article>
+                <a class="title" href="">(Title)</a>
+                <time class="date">(Date of creation)</time>
+                <span class="status">(Status of post)</span>
+            </article>
+        </section>
+        <button class="btnissue">Add issue</button> <button class="btnsolvedIssues">View solved issues</button>
+    </div>
+
+    <div class="verticalSplitLine"></div>
+
+    <div class="rightContainer">
+        <section class="details">
+            <article class="issueInformation">
+                <header class="title" href="">(Title)</header>
+                <main class="desc">(Description of chosen issue)</main>
+            </article>
+        </section>
+        <div class="makeCommentGUI">
+            <textarea></textarea>
+            <button class="btnsend">Send message</button>
+        </div>
+    </div>
 </body>
 </html>
