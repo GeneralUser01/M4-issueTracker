@@ -68,6 +68,10 @@ article {
     display: flex;
     text-align: center;
 }
+article header, article main {
+    display: flex;
+    flex-flow: column;
+}
 
 .dashboard {
     min-height: 87vh;
