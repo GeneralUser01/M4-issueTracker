@@ -125,69 +125,35 @@ article {
     flex-flow: row;
     border-style: none;
 }
-.statusDotGreen {
+.statusDot {    
     border-radius: 50%;
     border-style: solid;
     border-width: thin;
+    /* Fixed size instead of relative size to window
+    height: 1.8em;
+    width: 1.7em;
+    */
+    height: 3.8vh;
+    width: 2.05vw;
+    margin-top: 0.15vh;
+    margin-bottom: 0.15vh;
+    margin-left: 1.7vw;
+}
+.green {
     background-color: rgb(0, 255, 17);
     border-color: rgb(0, 220, 15);
-    /* Fixed size instead of relative size to window
-    height: 1.8em;
-    width: 1.7em;
-    */
-    height: 3.8vh;
-    width: 2.05vw;
-    margin-top: 0.15vh;
-    margin-bottom: 0.15vh;
-    margin-left: 1.7vw;
 }
-.statusDotYellow {
-    border-radius: 50%;
-    border-style: solid;
-    border-width: thin;
+.yellow {
     background-color: rgb(247, 255, 0);
     border-color: rgb(213, 220, 0);
-    /* Fixed size instead of relative size to window
-    height: 1.8em;
-    width: 1.7em;
-    */
-    height: 3.8vh;
-    width: 2.05vw;
-    margin-top: 0.15vh;
-    margin-bottom: 0.15vh;
-    margin-left: 1.7vw;
 }
-.statusDotRed {
-    border-radius: 50%;
-    border-style: solid;
-    border-width: thin;
+.red {
     background-color: rgb(255, 0, 0);
     border-color: rgb(220, 0, 0);
-    /* Fixed size instead of relative size to window
-    height: 1.8em;
-    width: 1.7em;
-    */
-    height: 3.8vh;
-    width: 2.05vw;
-    margin-top: 0.15vh;
-    margin-bottom: 0.15vh;
-    margin-left: 1.7vw;
 }
-.statusDotGray {
-    border-radius: 50%;
-    border-style: solid;
-    border-width: thin;
+.gray {
     background-color: rgb(193, 193, 193);
     border-color: rgb(185, 185, 185);
-    /* Fixed size instead of relative size to window
-    height: 1.8em;
-    width: 1.7em;
-    */
-    height: 3.8vh;
-    width: 2.05vw;
-    margin-top: 0.15vh;
-    margin-bottom: 0.15vh;
-    margin-left: 1.7vw;
 }
 .statusSelectionIndicator::after {
     content: '\25C0';
