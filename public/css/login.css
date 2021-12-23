@@ -50,7 +50,23 @@ button{
     padding: 6px;
     border-radius: 2px;
     cursor: pointer;
-
 }
 
+.title{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-shadow: 2px 2px black;
+    background-color: gray;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+a:hover{
+    background-color: black;
+}
 
